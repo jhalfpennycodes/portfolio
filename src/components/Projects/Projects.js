@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import family from "../../Assets/Projects/family.png";
 import flight from "../../Assets/Projects/flightapi.png";
-import world from "../../Assets/Projects/worldEmissions.png";
+import world from "../../Assets/Projects/world.png";
 
 function Projects() {
   return (
@@ -43,8 +43,8 @@ function Projects() {
             <ProjectCard
               imgPath={world}
               isBlog={false}
-              title="World Emissios Visualiser"
-              description="A web application that uses live sensor API data for greenhouse gas emissions and displays graphical information about every country around the globe!"
+              title="World Emissions Visualiser"
+              description="A web application that uses live API data from sensors around the world to collect quantities of greenhouse gas emissions and creates visualisations with the data."
               ghLink="https://github.com/jhalfpennycodes/world_emissions"
               demoLink="https://world-emissions-ce27.vercel.app/"
             />
