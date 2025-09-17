@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import family from "../../Assets/Projects/family.png";
 import flight from "../../Assets/Projects/flightapi.png";
+import world from "../../Assets/Projects/worldEmissions.png";
 
 function Projects() {
   return (
@@ -36,6 +37,16 @@ function Projects() {
               description="A dummy Airline API providing flight information and booking actions through api requests API."
               ghLink="https://github.com/jhalfpennycodes/Airline_API"
               demoLink="https://github.com/jhalfpennycodes/Airline_API"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={world}
+              isBlog={false}
+              title="World Emissios Visualiser"
+              description="A web application that uses live sensor API data for greenhouse gas emissions and displays graphical information about every country around the globe!"
+              ghLink="https://github.com/jhalfpennycodes/world_emissions"
+              demoLink="https://world-emissions-ce27.vercel.app/"
             />
           </Col>
         </Row>
