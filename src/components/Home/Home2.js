@@ -36,7 +36,7 @@ function Home2() {
               with{" "}
               <i>
                 <b className="purple">
-                  Python Frameworks using Django and Flask orModern Javascript
+                  Python Frameworks using Django and Flask or Modern Javascript
                   Library and Frameworks
                 </b>{" "}
               </i>
