@@ -8,8 +8,11 @@ import {
   DiGit,
   DiJava,
   DiDjango,
+  DiDocker,
+  DiHtml5,
+  DiCss3,
 } from "react-icons/di";
-import { SiPostgresql } from "react-icons/si";
+import { SiFlask, SiPostgresql } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -21,7 +24,10 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -30,13 +36,22 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiFlask />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDjango />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDjango />
+        <DiGit />
       </Col>
     </Row>
   );

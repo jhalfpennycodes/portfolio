@@ -22,11 +22,13 @@ function AboutCard() {
             </span>{" "}
             from the <span className="purple"> University of Leeds.</span> I
             have been working on my{" "}
-            <span className="purple"> own projects </span> and{" "}
+            <span className="purple"> own projects </span>,{" "}
+            <span className="purple"> deploying web applications on VPS </span>,
+            and
             <span className="purple"> learning new technologies </span> to
             <span className="purple"> improve my skills </span> as a developer.
             My dream is to become a{" "}
-            <span className="purple">full stack web developer.</span>
+            <span className="purple">senior full stack web developer.</span>
             <br />
             <br />
             Apart from <span className="purple">coding</span>, here are some

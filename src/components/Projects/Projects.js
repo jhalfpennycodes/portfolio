@@ -23,9 +23,12 @@ function Projects() {
               imgPath={family}
               isBlog={false}
               title="Free Family Tree"
-              description="React appliaction with a flask RESTful API backend, two servers working together to provide a seemless system. The web application maps the rockerfeller family into a dynamic graph and allows the user to play around and add more family members to the tree."
+              description="React appliaction with a flask RESTful API backend, hosted on a linux VPS using Nginx as a 
+              reverse proxy to serve static files and retrive data from the backend. The web application maps a total of 
+              120 people across 8 famous families, you can also create your own family tree for free. The app dynamically 
+              generates a tree for you showing the links between your whole family no matter how complex."
               ghLink="https://github.com/jhalfpennycodes/family_tree"
-              demoLink="https://family-tree-t1mv.vercel.app/"
+              demoLink="https://free-family-tree.co.uk/"
             />
           </Col>
 
