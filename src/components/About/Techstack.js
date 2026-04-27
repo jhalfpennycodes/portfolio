@@ -6,7 +6,6 @@ import {
   DiReact,
   DiNodejs,
   DiGit,
-  DiJava,
   DiDjango,
   DiDocker,
   DiHtml5,
